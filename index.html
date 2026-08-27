@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Raksha Bandhan Suhani ❤️</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    font-family:Georgia,serif;
+    background:radial-gradient(circle at top,#fff5d6,#ffe1ea,#f7bfd2);
+    color:#5b2634;
+    overflow-x:hidden;
+}
+
+/* FESTIVE BORDER */
+body::before{
+    content:"";
+    position:fixed;
+    inset:10px;
+    border:3px solid #c9962e;
+    border-radius:25px;
+    pointer-events:none;
+}
+
+/* MAIN */
+.container{
+    width:92%;
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    padding:45px 10px;
+}
+
+/* RAKHI */
+.rakhi{
+    width:120px;
+    height:120px;
+    margin:auto;
+    border-radius:50%;
+    background:radial-gradient(
+        circle,
+        #fff 0 12%,
+        #d72655 13% 28%,
+        #f6c344 29% 43%,
+        #d72655 44% 58%,
+        #f6c344 59% 72%,
+        #d72655 73%
+    );
+    box-shadow:
+        0 0 0 10px #fff1d0,
+        0 0 0 14px #c9962e,
+        0 10px 30px rgba(100,30,50,.25);
+    animation:glow 2s infinite alternate;
+}
+
+@keyframes glow{
+    to{
+        transform:scale(1.06);
+        filter:brightness(1.1);
+    }
+}
+
+/* TITLE */
+h1{
+    margin-top:22px;
+    font-size:44px;
+    color:#a71945;
+    text-shadow:2px 2px white;
+}
+
+.name{
+    font-size:30px;
+    color:#8d541d;
+    margin-top:8px;
+    font-weight:bold;
+}
+
+.subtitle{
+    font-size:20px;
+    margin:10px 0 30px;
+}
+
+.decor{
+    font-size:26px;
+    letter-spacing:10px;
+}
+
+/* PHOTOS */
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:22px;
+    max-width:700px;
+    margin:35px auto;
+}
+
+.photo{
+    background:#fffaf0;
+    padding:10px;
+    border:2px solid #d3a13b;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(80,20,40,.2);
+    transition:.4s;
+}
+
+.photo:nth-child(odd){
+    transform:rotate(-2deg);
+}
+
+.photo:nth-child(even){
+    transform:rotate(2deg);
+}
+
+.photo:hover{
+    transform:scale(1.04) rotate(0);
+}
+
+.photo img{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+    border-radius:6px;
+}
+
+/* MESSAGE */
+.card{
+    max-width:700px;
+    margin:40px auto;
+    padding:30px 22px;
+    background:rgba(255,250,240,.9);
+    border:2px solid #d3a13b;
+    border-radius:25px;
+    box-shadow:0 12px 35px rgba(90,20,40,.18);
+}
+
+.card h2{
+    color:#a71945;
+    font-size:28px;
+    margin-bottom:16px;
+}
+
+.card p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+.highlight{
+    color:#ae204d;
+    font-weight:bold;
+}
+
+/* MUSIC BUTTON */
+button{
+    margin-top:25px;
+    padding:14px 28px;
+    border:0;
+    border-radius:30px;
+    background:linear-gradient(135deg,#b7194d,#d44c70);
+    color:white;
+    font-size:17px;
+    cursor:pointer;
+    box-shadow:0 7px 20px rgba(150,30,70,.3);
+}
+
+button:hover{
+    transform:scale(1.06);
+}
+
+.diya{
+    font-size:45px;
+    margin-top:20px;
+}
+
+/* FLOATING */
+.floating{
+    position:fixed;
+    bottom:-30px;
+    pointer-events:none;
+    animation:up 6s linear forwards;
+}
+
+@keyframes up{
+    to{
+        transform:translateY(-110vh) rotate(360deg);
+        opacity:0;
+    }
+}
+
+/* MOBILE */
+@media(max-width:600px){
+
+    h1{
+        font-size:31px;
+    }
+
+    .name{
+        font-size:25px;
+    }
+
+    .subtitle{
+        font-size:17px;
+    }
+
+    .rakhi{
+        width:90px;
+        height:90px;
+    }
+
+    .gallery{
+        gap:14px;
+    }
+
+    .photo{
+        padding:7px;
+    }
+
+    .photo img{
+        height:180px;
+    }
+
+    .card p{
+        font-size:16px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="rakhi"></div>
+
+    <div class="decor">🌸 🪔 🌸</div>
+
+    <h1>Happy Raksha Bandhan ❤️</h1>
+
+    <div class="name">Suhani 🌷</div>
+
+    <div class="subtitle">
+        To My Beautiful Sister 🎀
+    </div>
+
+
+    <!-- 4 PHOTOS -->
+
+    <div class="gallery">
+
+        <div class="photo">
+            <img src="photo1.jpg" alt="Suhani Memory 1">
+        </div>
+
+        <div class="photo">
+            <img src="photo2.jpg" alt="Suhani Memory 2">
+        </div>
+
+        <div class="photo">
+            <img src="photo3.jpg" alt="Suhani Memory 3">
+        </div>
+
+        <div class="photo">
+            <img src="photo4.jpg" alt="Suhani Memory 4">
+        </div>
+
+    </div>
+
+
+    <!-- MESSAGE -->
+
+    <div class="card">
+
+        <h2>💖 Dear Suhani 💖</h2>
+
+        <p>
+
+            Raksha Bandhan sirf ek festival nahi,
+            balki humare beautiful bond ko celebrate karne ka din hai. 🌸
+
+            <br><br>
+
+            <span class="highlight">
+            Suhani, tum meri life ki un special memories ka
+            hissa ho jo hamesha mere dil ke kareeb rahengi.
+            </span>
+
+            <br><br>
+
+            Hamari fights, masti, hasi aur saari memories —
+            sab mere liye priceless hain. ❤️
+
+            <br><br>
+
+            Chahe hum kitna bhi ladein,
+            tum hamesha meri favourite sister rahogi. 🥰
+
+            <br><br>
+
+            <b>
+            Happy Raksha Bandhan, Suhani! 🎀❤️
+            </b>
+
+        </p>
+
+        <audio id="song" loop>
+            <source src="my-sister.mp3" type="audio/mpeg">
+        </audio>
+
+        <button onclick="playSong()" id="musicBtn">
+            🎵 Play My Sister Song
+        </button>
+
+        <div class="diya">🪔</div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+function playSong(){
+
+    const song=document.getElementById("song");
+    const button=document.getElementById("musicBtn");
+
+    if(song.paused){
+        song.play();
+        button.innerHTML="⏸️ Pause Song";
+    }else{
+        song.pause();
+        button.innerHTML="🎵 Play My Sister Song";
+    }
+}
+
+
+/* FESTIVE ANIMATION */
+
+function createFloating(){
+
+    const element=document.createElement("div");
+
+    element.className="floating";
+
+    const items=[
+        "❤️","💕","🌸","🌺","✨","🎀","🪔"
+    ];
+
+    element.innerHTML=
+        items[Math.floor(Math.random()*items.length)];
+
+    element.style.left=
+        Math.random()*100+"vw";
+
+    element.style.fontSize=
+        (16+Math.random()*22)+"px";
+
+    element.style.animationDuration=
+        (4+Math.random()*4)+"s";
+
+    document.body.appendChild(element);
+
+    setTimeout(()=>{
+        element.remove();
+    },8000);
+}
+
+setInterval(createFloating,500);
+
+</script>
+
+</body>
+</html>
